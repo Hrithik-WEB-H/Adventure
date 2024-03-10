@@ -1,95 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,200;1,300;1,500;1,700;1,800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,200;1,300;1,500;1,700;1,800&display=swap');
-
-body{
-    font-family: "Poppins", sans-serif;
+body {
+    font-family: Poppins, sans-serif;
     font-size: 17px;
     box-sizing: border-box;
-    margin: 0;
-
+    margin: 0px;
 }
-.container{
+
+.container {
     width: 1000px;
     margin: auto;
 }
 
-header{
-    background-image: url(../Image/dawn.jpg);
+header {
+    background-image: url("../Image/dawn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #00000075;
+    background-color: rgba(0, 0, 0, 0.46);
     background-blend-mode: multiply;
-    background-position: right;
+    background-position: right center;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo h2{
+.logo h2 {
     line-height: 1.2;
 }
 
-.logo h2 a{
+.logo h2 a {
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
-.logo h2 a span{
+.logo h2 a span {
     font-weight: 200;
 }
 
-nav{}
+nav {}
 
-nav ul{
-    margin: 0;
-    padding: 0;
+nav ul {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     margin-left: 25px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-/* .last{
-    border: 2px solid rgb(193, 170, 170);
-    padding: 8px 16px;
-    border-radius: 30px;
-} */
-nav ul li:last-child{
+nav ul li:last-child {
     border: 2px solid rgb(193, 170, 170);
     padding: 8px 16px;
     border-radius: 30px;
 }
 
-.banner{
+.banner {
     text-align: center;
     padding: 100px;
     color: white;
 }
-.banner h3{
+
+.banner h3 {
     font-style: italic;
     font-size: 16px;
     margin-bottom: 5px;
 }
 
-
-.banner h1{
+.banner h1 {
     font-size: 40px;
     margin-top: 33px;
     margin-bottom: 10px;
 }
 
-.banner span{
+.banner span {
     background-color: red;
     height: 4px;
     width: 80px;
@@ -97,10 +91,11 @@ nav ul li:last-child{
     margin: auto;
     border-radius: 10px;
 }
-.banner button{
+
+.banner button {
     padding: 10px;
     font-size: 15px;
-    border: 0;
+    border: 0px;
     font-weight: 600;
     letter-spacing: 1px;
     color: white;
@@ -108,3 +103,64 @@ nav ul li:last-child{
     background-color: red;
 }
 
+.upcomming {}
+
+.upcomming span {
+    background-color: red;
+    height: 4px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.upcomming h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.upcomming-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 94%;
+    margin: auto;
+}
+
+.upcomming-iteam {
+    padding: 10px;
+    margin: 20px;
+}
+
+.upcomming-iteam img {
+    width: 100%;
+    height: 60%;
+    border-radius: 12px;
+    box-shadow: 10px 8px 5px #8e7a7a;
+}
+
+.upcomming-iteam h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+.upcomming-iteam p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.upcomming-iteam a {
+    margin: 150px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+}
