@@ -10,6 +10,11 @@ body {
 .container {
     width: 1000px;
     margin: auto;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
 }
 
 header {
@@ -103,7 +108,10 @@ nav ul li:last-child {
     background-color: red;
 }
 
-.upcomming {}
+.upcomming {
+    text-align: center;
+    margin: 17px;
+}
 
 .upcomming span {
     background-color: red;
@@ -152,7 +160,7 @@ nav ul li:last-child {
 
 .upcomming-iteam p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
     color: brown;
     margin-bottom: 30px;
@@ -163,4 +171,135 @@ nav ul li:last-child {
     text-decoration: none;
     font-size: 15px;
     font-weight: normal;
+    color: red;
+}
+
+/* explore */
+
+.explore-main {
+    padding: 200px 0;
+    background-image: url(../Image/father.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(137, 43, 226, 0.395);
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+
+.explore {
+    display: flex;
+}
+
+.explore-iteam {
+    width: 50%;
+}
+
+.explore-iteam h2 {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+
+.explore-iteam span {
+    background-color: red;
+    height: 4px;
+    width: 90px;
+    display: block;
+    border-radius: 10px;
+}
+
+.explore-iteam p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.explore-iteam a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    color: red;
+}
+
+/* tour */
+
+.tour {
+    display: flex;
+    margin: 30px 0;
+    margin: 30px 0 0 0;
+}
+
+.tour-iteam {
+    width: 33.33%;
+    margin: 15px;
+}
+
+.tour-iteam h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.tour-iteam span {
+    background-color: red;
+    height: 4px;
+    width: 90px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tour-iteam p {
+    margin: 30px 0;
+    text-align: justify;
+    color: brown;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.tour-iteam button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 60px;
+    background-color: red;
+}
+
+.img-1 {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 30px 0;
+}
+
+.img-2 {
+    height: 540px;
+    object-fit: cover;
+    margin: 0 0 30px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    color: rgb(86, 76, 76);
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 0;
+}
+
+.footer span {
+    background-color: gray;
+    height: 4px;
+    width: 800px;
+    display: block;
+    border-radius: 10px;
+    margin: 0px 210px;
+    padding: 1px;
 }
